@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var Apikey: NSString?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         //Give your API key Like Apikey="xxxxxxxxxx"
         Apikey=""
         //Give your API key Like GMSServices.provideAPIKey("xxxxxxx")
